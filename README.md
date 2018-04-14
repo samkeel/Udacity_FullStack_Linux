@@ -83,6 +83,8 @@ grader ALL=(ALL:ALL) ALL
 sudo ufw allow ssh
 sudo ufw allow 2200/tcp
 sudo ufw allow www
+sudo ufw allow 123
+sudo ufw deny 22
 sudo ufw enable
 ```
 ### Switch user to grader and create authorized keys
