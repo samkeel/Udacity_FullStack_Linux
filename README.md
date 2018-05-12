@@ -1,9 +1,9 @@
 # Udacity Full Stack Project 5: Linux configuration
 Taking a baseline installtion of a Linux distribution on a virtual machine and modifying it to host web applications, including updates, securing it from numerous attack vectors and installing and configuring web and database servers.
 ## Server details
-* IP address: 13.211.66.185
+* IP address: ~~13.211.66.185~~
 * SSH Port: 2200
-* URL: http://13.211.66.185.xip.io/
+* URL: ~~http://13.211.66.185.xip.io/~~ **Site taken down after grading.**
 
 # Summary of changes made
 * Create new user 'Grader' and add to Sudo group
@@ -96,7 +96,7 @@ On the server as root, switch user to grader and add ssh login.
 ```
 su grader
 cd
-mk dir /home/grader/.ssh
+mkdir /home/grader/.ssh
 sudo touch .ssh/authorized_keys
 sudo nano .ssh/authorized_keys
 ```
@@ -300,4 +300,4 @@ Update client_secrets.json with the new JSON codes provided by Google.
 sudo nano client_secrets.json
 ```
 Open site and confirm it works:
-> http://13.211.66.185.xip.io/
+> ~~http://13.211.66.185.xip.io/~~ **Site taken down after grading.**
